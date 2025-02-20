@@ -1,0 +1,112 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background-color: #f3f9fd; /* Light Blue Background */
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Header Section */
+.header {
+  background-color: #007bff; /* Blue */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 36px;
+}
+
+.header p {
+  font-size: 18px;
+}
+
+/* About Section */
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.profile {
+  flex: 1;
+  text-align: center;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.bio {
+  flex: 2;
+  padding: 20px;
+}
+
+.bio h2 {
+  font-size: 28px;
+  color: #007bff;
+}
+
+.bio p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Experience Section */
+.experience {
+  margin: 40px 0;
+}
+
+.experience h2 {
+  font-size: 28px;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.experience ul {
+  list-style-type: none;
+}
+
+.experience li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Contact Section */
+.contact {
+  margin: 40px 0;
+}
+
+.contact h2 {
+  font-size: 28px;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 18px;
+}
+
+/* Footer */
+.footer {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 40px;
+}
